@@ -30,7 +30,7 @@
             "cache_duration": "none",
             "fetch_upstream_icon": true
           },
-          "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
+          "template": "\uf09b {{ .HEAD }} {{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }}",
           "foreground": "#14A5AE",
           "type": "git",
           "style": "plain"
@@ -39,7 +39,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": " | \uebd8 {{ .Name }} ",
+          "template": "| \uebd8 {{ .Name }} ",
           "foreground": "#bd93f9",
           "type": "az",
           "style": "plain"
